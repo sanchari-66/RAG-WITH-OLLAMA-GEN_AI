@@ -4,6 +4,12 @@ from backend import load_documents, create_vectorstore, build_qa_chain, answer_q
 
 app = Flask(__name__)
 
+# Root route to avoid 404
+@app.route("/")
+def home():
+    return "RAG Ollama API is running!"
+
+
 # Global objects
 qa_chain = None
 retriever = None
