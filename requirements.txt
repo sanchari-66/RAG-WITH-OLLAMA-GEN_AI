@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+ollama
+beautifulsoup4
+requests
+lxml
+html5lib
+pypdf
+pymupdf
+chromadb
+Flask
