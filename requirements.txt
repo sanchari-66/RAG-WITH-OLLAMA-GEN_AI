@@ -11,3 +11,4 @@ pypdf
 pymupdf
 chromadb
 Flask
+gunicorn
